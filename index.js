@@ -4,7 +4,7 @@ const urlRoute = require("./routes/url")
 const URL = require("./models/url")
 const app = express()
 const PORT = 8000
-const DBURL = "mongodb+srv://minakshidutta21:NDNfQ2LbZ4tEVb1n@cluster0.sxwqi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+const DBURL = DB_URL
 
 // connection 
 connectToMongoDb(DBURL)
